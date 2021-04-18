@@ -44,7 +44,7 @@ public class TokenFind {
 
 		boolean f = false;
 		int count = 0;
-		if (host!=null)
+		if (host!=null){
 		String resourcePathurl = "C:\\Users\\yousefi-pc\\eclipse-workspace\\url.txt";
 		File file = new File(resourcePathurl);
 		FileReader fr = new FileReader(file);
